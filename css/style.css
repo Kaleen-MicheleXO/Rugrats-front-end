@@ -1,0 +1,263 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.hidden{
+  visibility: hidden;
+}
+body {
+  background-image: url("/assets/backgr.png");
+}
+h5 {
+  margin-top: 5%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  position: absolute;
+  left: 35%;
+}
+.card {
+  width: 18rem;
+  height: 28rem;
+  background: linear-gradient(lightblue, rgb(26, 221, 208));
+  border: 1px solid gray;
+  border-radius: 2%;
+  box-shadow: 5px 5px 15px;
+  position: absolute;
+  left: 40%;
+  top: 32%; 
+}
+.card-body {
+  background-color: white;
+  border-top: 1px solid black;
+  box-shadow: 5px 5px 15px; 
+
+}
+
+.card-img-top {
+  /* border: 1px solid white; */
+  
+
+  width: 80%;
+  height: 35%;
+  align-self: center;
+  margin-top: 10%;
+}
+.btn{
+  position: absolute;
+  left: 45%;
+  top: 90%;
+  background-color:rgb(26, 221, 208);
+  border-color: gray;
+ }
+ .btn:hover{
+  background-color: rgb(87,39,223);
+  box-shadow: inset 0 3px 5px rgba(127, 127, 127, 0.12);
+ }
+ .btn:active{
+  background-color:rgb(26, 221, 208);
+
+ }
+section {
+  margin-top: 0%;
+  inline-size: 100%;
+}
+
+p {
+  /* width: 100%; */
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 1%;
+
+}
+
+
+span {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+.left-card {
+  position: relative;
+  margin-bottom: 0.5%;
+  margin-left: 1%;
+  padding: 0% 2%;
+  width: 14%;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 15px;
+  border-radius: 4%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d; 
+}
+.left-card:hover, .right-card:hover{
+  background: linear-gradient(lightblue, rgb(26, 221, 208)); 
+    box-shadow: 5px 5px 15px;
+  transform: rotateY(180deg);
+  transition: transform 0.5s;  
+}
+.right-card {
+  margin-left: 0%;
+  margin-right: 1%;
+  margin-bottom: 0.5%;
+  position: relative;
+  padding: 0% 2%;
+  width: 14%;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 15px;
+  border-radius: 4%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  
+}
+.Quote {
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+/* ARROWS
+ .fa-arrow-right{
+  height: 20%;
+  width: 10%;
+  color:red;
+  position: absolute;
+  left:80%;
+  bottom:30%;
+ }
+ .fa-arrow-left{
+  height: 20%;
+  color:red;
+  position: absolute;
+  left:20%;
+  bottom:30%;
+
+ } */
+
+ @media  screen and  (max-width: 330px){
+  .card {
+    width: 5rem;
+    height: 7.6rem;
+    position: absolute;
+    left: 39%;
+    top: 11%;
+}
+  .btn{
+    top: 31%;
+  }
+}
+@media (min-width: 331px) and (max-width: 580px){
+  h5{
+    font-size: 12px;
+  }
+.card-body{
+  height: 87%;
+  padding: 3%
+}
+.Enemies{
+  font-size: 9px;
+}
+
+  .card {
+    width: 6rem;
+    height: 7.6rem;
+    position: absolute;
+    left: 38%;
+    top: 9%;
+ }
+ .card-img-top {
+  width: 54%;
+  height: 38%;
+  margin-top: 16%;
+}
+p{
+  font-size: 8px;
+}
+.card-body{
+  display: none;
+}
+.btn{
+  height: 2%;
+    width: 11%;
+    left: 45%;
+    top: 26%;
+    font-size: 8px;
+    text-align: center;
+    padding: 1%;
+
+}}
+ @media  (min-width: 581px) and (max-width: 1024px) {
+
+ 
+  .card {
+    width: 11rem;
+    height: 10rem;
+    position: absolute;
+    left: 40%;
+    top: 13%;
+ }
+ .card-img-top {
+  width: 54%;
+  height: 46%;
+  margin: 9% 0%
+}
+h5 {
+  font-size: 0.9rem;
+}
+
+.Quote{
+  margin-bottom: 0%;
+  font-size: 9px;
+}
+span{
+  font-size: 9px;
+  margin-bottom: 0%;
+}
+p{
+  margin-bottom: 0%;
+  font-size: 9px;
+}
+.btn{
+  position: absolute;
+    left: 47%;
+    top: 39%;
+    padding:0.2%;
+    font-size:13px;
+}
+.card-body{
+
+  padding: 7px 3px
+}
+ }
+
+
+ @media (min-width: 1024px) and (max-width: 1224px){
+.card {
+  width: 11rem;
+  height: 10rem;
+  position: absolute;
+  left: 42%;
+  top: 34%;
+}
+.btn {
+  position: absolute;
+  left: 47%;
+  top: 84%;
+  padding: 0.2%;
+  font-size: 13px;
+}
+} 
