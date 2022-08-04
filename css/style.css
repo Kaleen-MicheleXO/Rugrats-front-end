@@ -5,17 +5,9 @@
   font-family: "Lato", sans-serif;
 }
 
-.hidden{
-  visibility: hidden;
-}
+
 body {
   background-image: url("/assets/backgr.png");
-}
-h5 {
-  margin-top: 5%;
-  text-align: center;
-  border-bottom: 1px solid black;
-  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .logo {
   display: block;
@@ -25,16 +17,29 @@ h5 {
   position: absolute;
   left: 35%;
 }
+/*                                                     */
+/*                                                     */
+/*                                                     */
+/*                                                     */
 .card {
-  width: 18rem;
-  height: 28rem;
+  width: 17%;
+  height: 43%;
   background: linear-gradient(lightblue, rgb(26, 221, 208));
   border: 1px solid gray;
   border-radius: 2%;
   box-shadow: 5px 5px 15px;
   position: absolute;
-  left: 40%;
+  left: 42%;
   top: 32%; 
+}
+.hidden{
+  visibility: hidden;
+}
+h5 {
+  margin-top: 5%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .card-body {
   background-color: white;
@@ -42,16 +47,13 @@ h5 {
   box-shadow: 5px 5px 15px; 
 
 }
-
 .card-img-top {
-  /* border: 1px solid white; */
-  
-
   width: 80%;
   height: 35%;
   align-self: center;
   margin-top: 10%;
 }
+
 .btn{
   position: absolute;
   left: 45%;
@@ -65,26 +67,34 @@ h5 {
  }
  .btn:active{
   background-color:rgb(26, 221, 208);
-
  }
-section {
+.api {
   margin-top: 0%;
   inline-size: 100%;
 }
+.Quote {
+  margin-bottom: 2%;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
 
 p {
-  /* width: 100%; */
   font-weight: bold;
   font-size: 12px;
   margin-bottom: 1%;
-
 }
-
 
 span {
   font-weight: 400;
   font-size: 12px;
 }
+
+/*                                                     */
+/*                                                     */
+/*                                                     */
+/*                                                     */
 
 main {
   display: flex;
@@ -122,13 +132,7 @@ main {
   transform-style: preserve-3d;
   
 }
-.Quote {
-  margin-bottom: 2%;
-  font-weight: bold;
-  font-size: 15px;
-  text-align: center;
-  display: block;
-}
+
 
 /* ARROWS
  .fa-arrow-right{
@@ -148,37 +152,25 @@ main {
 
  } */
 
- @media  screen and  (max-width: 330px){
-  .card {
-    width: 5rem;
-    height: 7.6rem;
-    position: absolute;
-    left: 39%;
-    top: 11%;
-}
-  .btn{
-    top: 31%;
-  }
-}
-@media (min-width: 331px) and (max-width: 580px){
+
+@media (min-width: 331px) and (max-width: 580px) and (orientation : portrait){
   h5{
-    font-size: 12px;
+    font-size: 9px;
   }
 .card-body{
   height: 87%;
-  padding: 3%
+  padding: 3%;
 }
 .Enemies{
   font-size: 9px;
 }
-
-  .card {
-    width: 6rem;
-    height: 7.6rem;
+.card {
+    width: 21%;
+    height: 15%;
     position: absolute;
-    left: 38%;
-    top: 9%;
- }
+    left: 40%;
+    top: 12%;
+}
  .card-img-top {
   width: 54%;
   height: 38%;
@@ -192,28 +184,27 @@ p{
 }
 .btn{
   height: 2%;
-    width: 11%;
-    left: 45%;
-    top: 26%;
-    font-size: 8px;
-    text-align: center;
-    padding: 1%;
+  width: 11%;
+  left: 44%;
+  top: 31%;
+  font-size: 8px;
+  text-align: center;
+  padding: 0.5%;
 
 }}
- @media  (min-width: 581px) and (max-width: 1024px) {
 
- 
+  @media  (min-width: 581px) and (max-width: 1023px) and (orientation : portrait) {
   .card {
-    width: 11rem;
-    height: 10rem;
+    width: 24%;
+    height: 18%;
     position: absolute;
-    left: 40%;
-    top: 13%;
- }
- .card-img-top {
+    left: 39%;
+    top: 14%;
+}
+  .card-img-top {
   width: 54%;
   height: 46%;
-  margin: 9% 0%
+  margin: 9% 0%;
 }
 h5 {
   font-size: 0.9rem;
@@ -233,31 +224,90 @@ p{
 }
 .btn{
   position: absolute;
-    left: 47%;
-    top: 39%;
+    left: 46%;
+    top: 43%;
     padding:0.2%;
     font-size:13px;
 }
 .card-body{
-
-  padding: 7px 3px
+  padding: 7px 3px;
 }
- }
+}
 
 
- @media (min-width: 1024px) and (max-width: 1224px){
+ @media (min-width: 1024px) and (max-width: 1280px) and (orientation : portrait){
 .card {
-  width: 11rem;
-  height: 10rem;
+  width: 27%;
+  height: 64%;
   position: absolute;
-  left: 42%;
-  top: 34%;
+  left: 37%;
+  top: 32%;
 }
 .btn {
   position: absolute;
   left: 47%;
-  top: 84%;
+  top: 98%;
   padding: 0.2%;
   font-size: 13px;
 }
-} 
+}  
+/*                                                     */
+/*                                                     */
+/*                                                     */
+/*                                                     */
+
+@media (min-width:1024px) and (max-width: 1400px) and (orientation : landscape){
+  .card {
+    width: 25%;
+    height: 64%;
+    background: linear-gradient(lightblue, rgb(26, 221, 208));
+    border: 1px solid gray;
+    border-radius: 2%;
+    box-shadow: 5px 5px 15px;
+    position: absolute;
+    left: 39%;
+    top: 32%;
+ }
+ .card-body{
+  display:block;
+  padding: 1%;
+ }
+ .btn {
+  position: absolute;
+  left: 47%;
+  top: 97%;
+  }
+}
+@media (min-width : 581px) and (max-width: 1023px) and (orientation : landscape){
+  .card {
+    width: 21%;
+    height: 72%;
+    position: absolute;
+    left: 39%;
+    top: 41%;
+ } 
+
+ .btn{
+  height: 0%;
+  width: 6%;
+  left: 48%;
+  top: 123%;
+  font-size: 7px;
+  text-align: center;
+  padding: 1.1% 1%;
+
+}
+.card-body{
+  display: none;
+}
+
+.card-img-top {
+  width: 80%;
+  height: 35%;
+  align-self: center;
+  margin-top: 20%;
+}
+p{
+  font-size: 8px;
+}
+}
