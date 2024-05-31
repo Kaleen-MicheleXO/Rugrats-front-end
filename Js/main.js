@@ -47,7 +47,7 @@ document.querySelector('.kimi').addEventListener('click',kimiF);
 
 function tommyP(){
   document.querySelector('.card').classList.remove('hidden')
-const url = `https://rugrats-api.cyclic.app/api/${"tommypickles"}`;
+const url = `https://rugrats-api-k1v5.onrender.com/api/${"tommypickles"}`;
 
 fetch(url)
   .then((res) => res.json())
@@ -70,7 +70,7 @@ fetch(url)
 }
 function chuckieF(){
   document.querySelector('.card').classList.remove('hidden')
-  const url = `https://rugrats-api.cyclic.app/api/${"chuckiefinster"}`;
+  const url = `https://rugrats-api-k1v5.onrender.com/api/${"chuckiefinster"}`;
   
   fetch(url)
     .then((res) => res.json())
@@ -93,7 +93,7 @@ function chuckieF(){
 }
 function lilD (){
   document.querySelector('.card').classList.remove('hidden')
-  const url = `https://rugrats-api.cyclic.app/api/${"lildeville"}`;
+  const url = `https://rugrats-api-k1v5.onrender.com/api/${"lildeville"}`;
     
   fetch(url)
     .then((res) => res.json())
@@ -114,7 +114,7 @@ function lilD (){
 }
  function philD (){
   document.querySelector('.card').classList.remove('hidden')
-    const url = `https://rugrats-api.cyclic.app/api/${"phildevill"}`;
+    const url = `https://rugrats-api-k1v5.onrender.com/api/${"phildevill"}`;
       
       fetch(url)
         .then((res) => res.json())
@@ -137,7 +137,7 @@ function lilD (){
 }
 function angelicaP(){
   document.querySelector('.card').classList.remove('hidden')
-  const url = `https://rugrats-api.cyclic.app/api/${"angelicapickles"}`;
+  const url = `https://rugrats-api-k1v5.onrender.com/api/${"angelicapickles"}`;
         
     fetch(url)
       .then((res) => res.json())
@@ -159,7 +159,7 @@ function angelicaP(){
 }
 function susieC(){
   document.querySelector('.card').classList.remove('hidden')
-  const url = `https://rugrats-api.cyclic.app/api/${"susiecarmichael"}`;
+  const url = `https://rugrats-api-k1v5.onrender.com/api/${"susiecarmichael"}`;
           
     fetch(url)
       .then((res) => res.json())
@@ -181,7 +181,7 @@ function susieC(){
 }
 function dilP(){
   document.querySelector('.card').classList.remove('hidden')
-  const url = `https://rugrats-api.cyclic.app/api/${"dilpickles"}`;
+  const url = `https://rugrats-api-k1v5.onrender.com/api/${"dilpickles"}`;
           
     fetch(url)
       .then((res) => res.json())
@@ -204,7 +204,7 @@ function dilP(){
 
 function kimiF(){
   document.querySelector('.card').classList.remove('hidden')
-  const url = `https://rugrats-api.cyclic.app/api/${"kimifinster"}`;
+  const url = `https://rugrats-api-k1v5.onrender.com/api/${"kimifinster"}`;
               
     fetch(url)
       .then((res) => res.json())
